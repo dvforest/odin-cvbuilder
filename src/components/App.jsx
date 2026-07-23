@@ -1,7 +1,12 @@
+import CV from "./CV.jsx";
+import Dashboard from "./Dashboard.jsx";
+import "../styles/app.css";
+
 function App() {
   return (
-    <div>
-      <h1>Blank React Project</h1>
+    <div className="app">
+      <Dashboard />
+      <CV />
     </div>
   );
 }

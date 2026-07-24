@@ -1,13 +1,15 @@
 import '../styles/input.css';
 
-function Input({ id, label, type }) {
+function Input({ id, label, type, value, onChange }) {
   return (
     <div className="input-group">
-      <label for={id}>{label}</label>
+      <label htmlFor={id}>{label}</label>
       <input
         id={id}
         type={type}
-      ></input>
+        value={value}
+        onChange={onChange}
+      />
     </div>
   );
 }

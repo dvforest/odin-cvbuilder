@@ -1,0 +1,14 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+label {
+  font-size: 0.6rem;
+}
